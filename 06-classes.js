@@ -7,6 +7,20 @@
 
 // Your code here
 
+class Point {
+    constructor(x,y) {
+        this.x = x;
+        this.y = y;
+    }
+    plus(newPoint) {
+        var x = newPoint.x + this.x;
+        var y = newPoint.y + this.y;
+        return `Point{x: ${x}, y: ${y}}`
+        // console.log("Point{x:" + x, "y:" + y +"}");
+        
+    }
+}
+
 
 
 
