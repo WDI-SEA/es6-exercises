@@ -13,11 +13,11 @@ class Point {
         this.y = y;
     }
     plus(newPoint) {
-        var x = newPoint.x + this.x;
-        var y = newPoint.y + this.y;
-        return `Point{x: ${x}, y: ${y}}`
+        // var x = newPoint.x + this.x;
+        // var y = newPoint.y + this.y;
+        // return `Point{x: ${x}, y: ${y}}`
         // console.log("Point{x:" + x, "y:" + y +"}");
-        
+        return new Point(this.x + newPoint.x, this.y + newPoint.y)
     }
 }
 
