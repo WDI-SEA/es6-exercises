@@ -11,10 +11,10 @@ function myBarn(petMe) {
   };
   
   if (alwaysTrue) {
-    var animals = {
+    let animals = {
       petMe: "pig",
     };
-    var greeting = 'This animal should be a pig; it is a: ' + animals.petMe + '.';
+    let greeting = 'This animal should be a pig; it is a: ' + animals.petMe + '.';
     console.log(greeting);
   }
   
